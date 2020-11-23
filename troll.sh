@@ -47,8 +47,11 @@ sleep 0
 echo $yellow"[10] Spam WhatsApp v2"
 echo $white"<{≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈}>"
 sleep 0
-echo $green"[99] Edit Tools"
+echo $green"[11] 500+ script hack"
 echo $red"<{≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈}>"
+sleep 0
+echo $blue"[99] Edit Tools"
+echo $green"<{≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈}>"
 sleep 0
 echo $cyan"[0] exit"
 echo $white"<{≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈}>"
@@ -147,12 +150,21 @@ cd spam-whatsapp
 bash spam-wa.sh
 fi
 
+if [ $bro = 11 ] || [ $bro = 11 ]
+then
+clear
+git clone https://github.com/Ranginang67/DarkFly-Tool
+cd DarkFly-Tool
+python2 install.py
+DarkFly
+fi
+
 if [ $bro = 99 ] || [ $bro = 99 ]
 then
 clear
-cd /sdcard
-cd New-Project
-nano troll-project.sh
+git clone https://github.com/Teyak/my_tools
+cd my_tools
+nano troll.sh
 fi
 
 if [ $bro = 0 ] || [ $bro = 0 ]
